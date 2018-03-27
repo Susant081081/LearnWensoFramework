@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="testCases.VerifyLoginPage"/>
+      <class name="testCases.VerifyHomePageWithReport"/>
+      <class name="testCases.VerifyHomePageWithReport1"/>
+      <class name="testCases.VerifyHomePage"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+</suite> <!-- RegressionSuite -->
